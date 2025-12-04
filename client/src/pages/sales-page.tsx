@@ -21,8 +21,8 @@ import {
 } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 
-// Logo image - place logo.png in client/public/images/
-const logoImage = "/images/logo.png";
+// Logo image
+const logoImage = "/images/logo.jpg";
 
 export default function SalesPage() {
   const ctaRef = useRef<HTMLDivElement>(null);
