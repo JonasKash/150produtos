@@ -21,8 +21,8 @@ import {
 } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 
-// Import the generated image
-import productBundleImage from "@assets/generated_images/3d_digital_product_bundle_box_with_emerald_accents.png";
+// Logo image - place logo.png in client/public/images/
+const logoImage = "/images/logo.png";
 
 export default function SalesPage() {
   const ctaRef = useRef<HTMLDivElement>(null);
@@ -103,16 +103,6 @@ export default function SalesPage() {
                 >
                   👉 Quero acesso agora
                 </Button>
-                <div className="flex items-center gap-2 text-sm text-muted-foreground px-2">
-                  <div className="flex -space-x-2">
-                    {[1, 2, 3, 4].map((i) => (
-                      <div key={i} className="w-8 h-8 rounded-full bg-secondary border-2 border-background flex items-center justify-center text-[10px] font-bold overflow-hidden">
-                         <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i * 123}`} alt="User" />
-                      </div>
-                    ))}
-                  </div>
-                  <span className="font-medium">+1.200 produtores ativos</span>
-                </div>
               </motion.div>
               
               <motion.div
@@ -141,8 +131,8 @@ export default function SalesPage() {
                 className="relative z-10"
               >
                 <img 
-                  src={productBundleImage} 
-                  alt="Pack de Produtos Digitais" 
+                  src={logoImage} 
+                  alt="150 Produtos Validados" 
                   className="w-full h-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-700"
                 />
               </motion.div>
@@ -221,7 +211,7 @@ export default function SalesPage() {
         <div className="container px-4 mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-16">
             <div className="flex-1 space-y-8">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-wider">
                 A Solução Definitiva
               </div>
               <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground leading-tight">
@@ -284,13 +274,13 @@ export default function SalesPage() {
                         <div className="absolute -top-3 -right-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">
                            Mais Vendido
                         </div>
-                        <div className="h-8 w-8 bg-emerald-500/10 text-emerald-400 rounded-lg flex items-center justify-center mb-4">
+                        <div className="h-8 w-8 bg-cyan-500/10 text-cyan-400 rounded-lg flex items-center justify-center mb-4">
                            <DollarSign className="h-4 w-4" />
                         </div>
                         <h4 className="font-bold text-lg mb-1">PLR Premium</h4>
                         <p className="text-xs text-muted-foreground mb-4">Nicho de Saúde & Bem-estar</p>
-                        <div className="w-full h-1.5 bg-emerald-500/20 rounded-full overflow-hidden">
-                           <div className="w-[80%] h-full bg-emerald-500 rounded-full"></div>
+                        <div className="w-full h-1.5 bg-cyan-500/20 rounded-full overflow-hidden">
+                           <div className="w-[80%] h-full bg-cyan-500 rounded-full"></div>
                         </div>
                      </div>
                      <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
@@ -370,7 +360,7 @@ export default function SalesPage() {
                 <div className="text-xs font-bold text-primary uppercase tracking-wider mb-2">Bônus #{i+1}</div>
                 <h3 className="font-bold text-lg mb-2">{bonus.title}</h3>
                 <p className="text-sm text-muted-foreground">Valor separado: <span className="line-through decoration-red-500/50">{bonus.value}</span></p>
-                <p className="text-sm font-bold text-green-600 mt-1">GRÁTIS hoje</p>
+                <p className="text-sm font-bold text-cyan-400 mt-1">GRÁTIS hoje</p>
               </div>
             ))}
           </div>
@@ -383,7 +373,7 @@ export default function SalesPage() {
           <div className="max-w-lg mx-auto">
              <div className="relative">
                 {/* Glow effect */}
-                <div className="absolute -inset-1 bg-gradient-to-r from-primary via-emerald-400 to-primary rounded-2xl blur opacity-75"></div>
+                <div className="absolute -inset-1 bg-gradient-to-r from-primary via-cyan-400 to-primary rounded-2xl blur opacity-75"></div>
                 
                 <Card className="relative border-none shadow-2xl bg-background overflow-hidden">
                    <div className="bg-foreground text-background text-center py-3 text-sm font-bold uppercase tracking-wider">
@@ -397,7 +387,7 @@ export default function SalesPage() {
                             <span className="text-7xl md:text-8xl font-black tracking-tighter font-display">27</span>
                             <span className="text-xl font-bold relative -bottom-6">,90</span>
                          </div>
-                         <p className="text-sm text-emerald-400 font-bold mt-4 bg-emerald-500/10 inline-block px-3 py-1 rounded-full border border-emerald-500/20">
+                         <p className="text-sm text-cyan-400 font-bold mt-4 bg-cyan-500/10 inline-block px-3 py-1 rounded-full border border-cyan-500/20">
                             Menos de R$ 0,18 por produto
                          </p>
                       </div>
