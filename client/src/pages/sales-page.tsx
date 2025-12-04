@@ -427,7 +427,6 @@ export default function SalesPage() {
                             "150 Produtos Vencedores",
                             "Criativos e Copys Testadas",
                             "Landing Pages Prontas",
-                            "Análise de Por Que Cada Um Vende",
                             "Checklist de Escala",
                             "Estratégia Início Rápido (10 min)",
                             "Acesso Vitalício",
