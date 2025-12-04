@@ -61,7 +61,7 @@ export default function SalesPage() {
                 transition={{ duration: 0.5 }}
               >
                 <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20">
-                  🔥 Torne-se Produtor Hoje
+                  🔥 O Atalho que Ninguém Quer te Contar
                 </span>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-[1.1] tracking-tight text-foreground">
                   150 Produtos Validados, <span className="text-primary">Prontos pra Subir e Vender</span>
@@ -70,18 +70,18 @@ export default function SalesPage() {
                   Com 100% da Comissão no Seu Bolso
                 </p>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl my-6">
-                  Pare de perder dinheiro testando produto errado. <br className="hidden md:block" />
-                  Pegue 150 ofertas que já vendem, já foram validadas e estão prontas pra você copiar, subir e lucrar.
+                  150 produtos prontos, testados e validados pelos que <span className="text-foreground font-semibold">realmente vendem hoje</span>. <br className="hidden md:block" />
+                  Com criativos, copys e páginas prontas. <span className="text-foreground font-semibold">Você sobe em menos de 10 minutos</span> — sem pensar, sem testar, sem adivinhar.
                 </p>
 
                 <div className="grid grid-cols-2 gap-y-2 gap-x-4 mb-8 max-w-lg">
                   {[
-                    "Produtos testados",
-                    "Criativos prontos",
-                    "Copys prontas",
-                    "Landing pages",
-                    "Início imediato",
-                    "100% da comissão"
+                    "150 produtos vencedores",
+                    "Criativos validados",
+                    "Copys testadas",
+                    "Landing pages prontas",
+                    "Análise de vendas",
+                    "Checklist de escala"
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-2">
                       <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
@@ -104,7 +104,7 @@ export default function SalesPage() {
                   className="h-14 px-8 text-lg font-semibold bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1"
                   onClick={openPayment}
                 >
-                  👉 Quero acesso agora
+                  🚀 Pegar um Produto Vencedor Agora
                 </Button>
               </motion.div>
               
@@ -200,10 +200,13 @@ export default function SalesPage() {
             ))}
           </div>
           
-          <div className="text-center mt-12 max-w-2xl mx-auto bg-red-500/5 border border-red-500/20 rounded-xl p-6">
+          <div className="text-center mt-12 max-w-2xl mx-auto bg-red-500/5 border border-red-500/20 rounded-xl p-6 space-y-3">
             <p className="text-lg text-red-200 font-medium">
-              A pessoa não desiste porque não é capaz. <br/>
-              <span className="text-white font-bold">Ela desiste porque está tentando adivinhar.</span>
+              Enquanto os outros <span className="text-white font-bold">gastam semanas procurando "o produto certo"</span>,<br/>
+              você abre a pasta, escolhe um vencedor… e só executa.
+            </p>
+            <p className="text-base text-red-300/80 italic">
+              É como jogar um jogo onde você já começa com todas as respostas.
             </p>
           </div>
         </div>
@@ -218,8 +221,8 @@ export default function SalesPage() {
                 A Solução Definitiva
               </div>
               <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground leading-tight">
-                O que você precisa não é de mais conhecimento. <br/>
-                <span className="text-primary">Você precisa de DECISÃO PRONTA.</span>
+                Você não vai ficar tentando adivinhar o que vende.<br/>
+                <span className="text-primary">Você vai pegar algo que já está vendendo.</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Um caminho onde:
@@ -370,6 +373,20 @@ export default function SalesPage() {
         </div>
       </section>
 
+      {/* Urgency Section */}
+      <section className="py-16 bg-gradient-to-r from-red-900/20 via-orange-900/20 to-red-900/20 border-y border-red-500/20">
+        <div className="container px-4 mx-auto text-center">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl font-bold text-foreground leading-tight mb-4">
+              "Enquanto você pensa no que anunciar, <span className="text-primary">alguém já está lucrando</span> com o produto que poderia ser seu."
+            </p>
+            <p className="text-lg text-muted-foreground">
+              Cada minuto perdido é dinheiro na conta de outra pessoa.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section id="pricing" className="py-24 relative">
         <div className="container px-4 mx-auto">
@@ -397,9 +414,12 @@ export default function SalesPage() {
 
                       <ul className="space-y-4 text-left max-w-xs mx-auto">
                          {[
-                            "Acesso Imediato a 150 Produtos",
-                            "Licença PLR (Direito de Revenda)",
-                            "4 Bônus Exclusivos",
+                            "150 Produtos Vencedores",
+                            "Criativos e Copys Testadas",
+                            "Landing Pages Prontas",
+                            "Análise de Por Que Cada Um Vende",
+                            "Checklist de Escala",
+                            "Estratégia Início Rápido (10 min)",
                             "Acesso Vitalício",
                             "Garantia de 7 Dias"
                          ].map((item, i) => (
@@ -417,7 +437,7 @@ export default function SalesPage() {
                         className="w-full h-16 text-xl font-bold bg-primary hover:bg-primary/90 shadow-xl shadow-primary/20 animate-pulse-slow"
                         onClick={openPayment}
                       >
-                        COMPRAR AGORA
+                        🔥 PEGAR PRODUTO PROVADO AGORA
                       </Button>
 
                       <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
@@ -488,9 +508,10 @@ export default function SalesPage() {
           </Accordion>
 
           <div className="mt-16 text-center">
-            <p className="text-muted-foreground mb-6">Ainda com dúvidas? Não perca essa oportunidade.</p>
+            <p className="text-lg font-semibold text-foreground mb-2">Pare de procurar o produto perfeito.</p>
+            <p className="text-muted-foreground mb-6">Pegue um que já está provado e comece hoje.</p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold px-8" onClick={openPayment}>
-               GARANTIR MEU ACESSO AGORA
+               🚀 ENTRAR AGORA
             </Button>
           </div>
         </div>
