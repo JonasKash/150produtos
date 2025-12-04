@@ -422,21 +422,20 @@ export default function SalesPage() {
                          </p>
                       </div>
 
-                      <ul className="space-y-4 text-left max-w-xs mx-auto">
+                      <ul className="space-y-3 text-left max-w-xs mx-auto">
                          {[
                             "150 Produtos Vencedores",
                             "Criativos e Copys Testadas",
                             "Landing Pages Prontas",
+                            "Call de auxílio",
                             "Checklist de Escala",
                             "Estratégia Início Rápido (10 min)",
                             "Acesso Vitalício",
                             "Garantia de 7 Dias"
                          ].map((item, i) => (
                             <li key={i} className="flex items-center gap-3">
-                               <div className="flex-shrink-0 w-5 h-5 rounded-full bg-primary/20 text-primary flex items-center justify-center">
-                                  <Check className="h-3 w-3" />
-                               </div>
-                               <span className="text-foreground/80">{item}</span>
+                               <span className="text-primary text-lg">•</span>
+                               <span className="text-foreground/90">{item}</span>
                             </li>
                          ))}
                       </ul>
