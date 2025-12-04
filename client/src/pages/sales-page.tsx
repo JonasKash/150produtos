@@ -56,11 +56,30 @@ export default function SalesPage() {
                   🔥 Torne-se Produtor Hoje
                 </span>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display leading-[1.1] tracking-tight text-foreground">
-                  150 Produtos <span className="text-primary">Validados</span> + 100% de Comissão Para Você
+                  150 Produtos Validados, <span className="text-primary">Prontos pra Subir e Vender</span> — com 100% da Comissão no Seu Bolso
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                  Pare de ganhar migalhas como afiliado. Tenha seu próprio império digital com produtos prontos para vender e fique com todo o lucro no seu bolso.
+                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl my-6">
+                  Pare de perder dinheiro testando produto errado. <br className="hidden md:block" />
+                  Pegue 150 ofertas que já vendem, já foram validadas e estão prontas pra você copiar, subir e lucrar.
                 </p>
+
+                <div className="grid grid-cols-2 gap-y-2 gap-x-4 mb-8 max-w-lg">
+                  {[
+                    "Produtos testados",
+                    "Criativos prontos",
+                    "Copys prontas",
+                    "Landing pages",
+                    "Início imediato",
+                    "100% da comissão"
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-2">
+                      <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
+                        <Check className="w-3 h-3 text-primary" strokeWidth={3} />
+                      </div>
+                      <span className="text-sm font-medium text-foreground/90">{item}</span>
+                    </div>
+                  ))}
+                </div>
               </motion.div>
 
               <motion.div 
@@ -74,8 +93,7 @@ export default function SalesPage() {
                   className="h-14 px-8 text-lg font-semibold bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1"
                   onClick={scrollToPricing}
                 >
-                  Quero Ser Produtor Agora
-                  <ChevronRight className="ml-2 h-5 w-5" />
+                  👉 Quero acesso agora
                 </Button>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground px-2">
                   <div className="flex -space-x-2">
@@ -93,7 +111,7 @@ export default function SalesPage() {
                  initial={{ opacity: 0 }}
                  animate={{ opacity: 1 }}
                  transition={{ delay: 0.5 }}
-                 className="flex gap-6 text-sm font-medium text-muted-foreground"
+                 className="flex gap-6 text-sm font-medium text-muted-foreground hidden md:flex"
               >
                 <span className="flex items-center gap-1.5">
                   <Check className="h-4 w-4 text-primary" /> Acesso Imediato
@@ -128,48 +146,64 @@ export default function SalesPage() {
         </div>
       </section>
 
+      {/* Summary Section */}
+      <section className="py-16 bg-secondary/10 border-b border-border/50">
+        <div className="container px-4 mx-auto text-center">
+           <div className="inline-block px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-bold uppercase tracking-wider mb-4">
+              O RESUMO
+           </div>
+           <h2 className="text-2xl md:text-3xl font-bold font-display mb-6 max-w-4xl mx-auto">
+              Um pack com 150 produtos validados, prontos para anúncio, com criativos, copys e páginas — para você vender hoje e ficar com 100% da comissão.
+           </h2>
+           <div className="max-w-2xl mx-auto space-y-4 text-muted-foreground text-lg">
+              <p>
+                Você não precisa testar, pesquisar, quebrar a cabeça ou gastar dinheiro no escuro.
+                <br/>Nós já fizemos isso por você.
+              </p>
+              <p className="text-foreground font-bold text-xl">
+                Você só escolhe <ArrowRight className="inline w-4 h-4 mx-1 text-primary" /> sobe <ArrowRight className="inline w-4 h-4 mx-1 text-primary" /> vende.
+              </p>
+           </div>
+        </div>
+      </section>
+
       {/* Problem Agitation Section */}
       <section className="py-20 bg-card/30 border-y border-border/50">
         <div className="container px-4 mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">
-              Cansado de enriquecer os outros?
+              O que trava quem tenta vender online hoje?
             </h2>
-            <p className="text-lg text-muted-foreground">
-              A dura verdade sobre o mercado de afiliados que ninguém te conta.
-            </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              {
-                icon: <DollarSign className="h-8 w-8 text-red-500" />,
-                title: "Comissões Baixas",
-                desc: "Você faz todo o trabalho duro de vender, mas fica com apenas 30% a 50% do valor. O dono do produto fica rico com seu esforço."
-              },
-              {
-                icon: <Clock className="h-8 w-8 text-orange-500" />,
-                title: "Meses de Criação",
-                desc: "Criar um produto do zero leva tempo. Gravar aulas, escrever e-books, configurar área de membros... meses sem faturar nada."
-              },
-              {
-                icon: <TrendingUp className="h-8 w-8 text-gray-500" />,
-                title: "Concorrência Desleal",
-                desc: "Como afiliado, você compete com milhares de outras pessoas vendendo a mesma coisa, com a mesma oferta e mesmos criativos."
-              }
+              "Não sabe qual produto funciona",
+              "Gasta dinheiro testando coisa que não dá certo",
+              "Tem medo de perder mais grana",
+              "Fica travado entre 500 opções",
+              "Compra curso que ensina, mas não entrega nada pronto",
+              "Não tem criativos bons",
+              "Não sabe qual copy funciona"
             ].map((item, i) => (
-              <Card key={i} className="border-none shadow-lg bg-card">
-                <CardContent className="pt-8 p-8">
-                  <div className="mb-6 p-3 bg-background/50 rounded-xl w-fit shadow-sm border border-border/50">
-                    {item.icon}
+              <Card key={i} className="border-none shadow-lg bg-card hover:bg-card/80 transition-colors">
+                <CardContent className="p-6 flex items-start gap-4">
+                  <div className="w-8 h-8 rounded-lg bg-red-500/10 text-red-500 flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="text-lg font-bold">✕</span>
                   </div>
-                  <h3 className="text-xl font-bold mb-3">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {item.desc}
+                  <p className="text-foreground font-medium leading-tight pt-1">
+                    {item}
                   </p>
                 </CardContent>
               </Card>
             ))}
+          </div>
+          
+          <div className="text-center mt-12 max-w-2xl mx-auto bg-red-500/5 border border-red-500/20 rounded-xl p-6">
+            <p className="text-lg text-red-200 font-medium">
+              A pessoa não desiste porque não é capaz. <br/>
+              <span className="text-white font-bold">Ela desiste porque está tentando adivinhar.</span>
+            </p>
           </div>
         </div>
       </section>
@@ -182,28 +216,35 @@ export default function SalesPage() {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-wider">
                 A Solução Definitiva
               </div>
-              <h2 className="text-3xl md:text-5xl font-bold font-display text-foreground">
-                Você não precisa criar nada. <br/>
-                <span className="text-primary">Já está tudo pronto.</span>
+              <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground leading-tight">
+                O que você precisa não é de mais conhecimento. <br/>
+                <span className="text-primary">Você precisa de DECISÃO PRONTA.</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Imagine pular toda a fase chata de criação e ir direto para a parte que coloca dinheiro no bolso: as vendas. Com nosso pack, você se torna dono de 150 produtos instantaneamente.
+                Um caminho onde:
               </p>
               
-              <div className="space-y-4">
+              <div className="space-y-4 bg-card/50 p-6 rounded-2xl border border-border/50">
                 {[
-                  "100% de comissão em todas as vendas",
-                  "Produtos validados em nichos lucrativos",
-                  "Sem necessidade de aparecer",
-                  "Comece a vender hoje mesmo"
+                  "Você não pensa no produto",
+                  "Não pensa no criativo",
+                  "Não pensa na copy",
+                  "Não pensa em quais páginas usar",
+                  "Não pensa no que funciona",
+                  "Não precisa validar nada"
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
-                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center">
                       <Check className="h-3.5 w-3.5" />
                     </div>
-                    <span className="font-medium text-foreground">{item}</span>
+                    <span className="font-medium text-foreground text-lg">{item}</span>
                   </div>
                 ))}
+                <div className="pt-4 mt-4 border-t border-border/50">
+                   <p className="text-xl font-bold text-white">
+                      Você só executa. <span className="text-primary">E recebe.</span>
+                   </p>
+                </div>
               </div>
 
               <Button size="lg" variant="outline" className="h-12 border-primary text-primary hover:bg-primary/5" onClick={scrollToPricing}>
