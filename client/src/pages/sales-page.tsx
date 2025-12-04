@@ -313,50 +313,6 @@ export default function SalesPage() {
         </div>
       </section>
 
-      {/* How it works */}
-      <section className="py-20 bg-foreground text-background relative overflow-hidden">
-         {/* Pattern background */}
-         <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(#ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
-         
-         <div className="container px-4 mx-auto relative z-10">
-            <div className="text-center max-w-3xl mx-auto mb-16">
-               <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">
-                  3 Passos Simples Para Lucrar
-               </h2>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-               {[
-                  {
-                     step: "01",
-                     title: "Baixe o Material",
-                     desc: "Acesse a área de membros e faça o download dos 150 produtos, capas e materiais de divulgação."
-                  },
-                  {
-                     step: "02",
-                     title: "Configure a Venda",
-                     desc: "Cadastre o produto em qualquer plataforma (Kiwify, Hotmart, Eduzz) e defina o SEU preço."
-                  },
-                  {
-                     step: "03",
-                     title: "Receba 100%",
-                     desc: "Divulgue seu link e receba o valor integral de cada venda direto na sua conta bancária."
-                  }
-               ].map((item, i) => (
-                  <div key={i} className="relative">
-                     <div className="text-6xl font-black text-white/10 absolute -top-8 -left-4 font-display select-none">
-                        {item.step}
-                     </div>
-                     <h3 className="text-xl font-bold mb-4 relative z-10 text-primary">{item.title}</h3>
-                     <p className="text-gray-400 relative z-10 leading-relaxed">
-                        {item.desc}
-                     </p>
-                  </div>
-               ))}
-            </div>
-         </div>
-      </section>
-
       {/* Bonuses Section */}
       <section className="py-20 bg-secondary/30">
         <div className="container px-4 mx-auto">
