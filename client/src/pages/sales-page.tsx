@@ -27,6 +27,14 @@ import productBundleImage from "@assets/generated_images/3d_digital_product_bund
 export default function SalesPage() {
   const ctaRef = useRef<HTMLDivElement>(null);
   
+  // Payment link
+  const PAYMENT_URL = "https://pay.cakto.com.br/k25vrow_676300";
+  
+  // Open payment page
+  const openPayment = () => {
+    window.open(PAYMENT_URL, "_blank");
+  };
+  
   // Smooth scroll to pricing
   const scrollToPricing = () => {
     const pricingSection = document.getElementById("pricing");
@@ -91,7 +99,7 @@ export default function SalesPage() {
                 <Button 
                   size="lg" 
                   className="h-14 px-8 text-lg font-semibold bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1"
-                  onClick={scrollToPricing}
+                  onClick={openPayment}
                 >
                   👉 Quero acesso agora
                 </Button>
@@ -247,7 +255,7 @@ export default function SalesPage() {
                 </div>
               </div>
 
-              <Button size="lg" variant="outline" className="h-12 border-primary text-primary hover:bg-primary/5" onClick={scrollToPricing}>
+              <Button size="lg" variant="outline" className="h-12 border-primary text-primary hover:bg-primary/5" onClick={openPayment}>
                 Ver Lista de Produtos
               </Button>
             </div>
@@ -414,6 +422,7 @@ export default function SalesPage() {
                       <Button 
                         size="lg" 
                         className="w-full h-16 text-xl font-bold bg-primary hover:bg-primary/90 shadow-xl shadow-primary/20 animate-pulse-slow"
+                        onClick={openPayment}
                       >
                         COMPRAR AGORA
                       </Button>
@@ -487,7 +496,7 @@ export default function SalesPage() {
 
           <div className="mt-16 text-center">
             <p className="text-muted-foreground mb-6">Ainda com dúvidas? Não perca essa oportunidade.</p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold px-8" onClick={scrollToPricing}>
+            <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold px-8" onClick={openPayment}>
                GARANTIR MEU ACESSO AGORA
             </Button>
           </div>
