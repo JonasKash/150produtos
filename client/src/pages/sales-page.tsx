@@ -167,10 +167,12 @@ export default function SalesPage() {
               <p className="text-foreground font-semibold text-lg">
                 Escolhe o produto → Sobe a campanha → Recebe 100% da comissão.
               </p>
-              <div className="space-y-2 mt-6">
-                <p className="text-foreground font-bold">Sem achismo.</p>
-                <p className="text-foreground font-bold">Sem desperdício.</p>
-                <p className="text-foreground font-bold">Sem travar.</p>
+              <div className="mt-8 inline-block bg-gradient-to-r from-sky-500/15 via-cyan-400/10 to-sky-500/15 border-2 border-sky-400/40 rounded-xl px-8 py-6 shadow-lg">
+                <div className="space-y-3">
+                  <p className="text-sky-300 font-black text-xl tracking-tight">✓ Sem achismo.</p>
+                  <p className="text-sky-300 font-black text-xl tracking-tight">✓ Sem desperdício.</p>
+                  <p className="text-sky-300 font-black text-xl tracking-tight">✓ Sem travar.</p>
+                </div>
               </div>
            </div>
         </div>
