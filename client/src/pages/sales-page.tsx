@@ -63,9 +63,12 @@ export default function SalesPage() {
                 <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20">
                   🔥 Torne-se Produtor Hoje
                 </span>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display leading-[1.1] tracking-tight text-foreground">
-                  150 Produtos Validados, <span className="text-primary">Prontos pra Subir e Vender</span> — com 100% da Comissão no Seu Bolso
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-[1.1] tracking-tight text-foreground">
+                  150 Produtos Validados, <span className="text-primary">Prontos pra Subir e Vender</span>
                 </h1>
+                <p className="text-xl md:text-2xl font-semibold text-primary/80 mt-4">
+                  Com 100% da Comissão no Seu Bolso
+                </p>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl my-6">
                   Pare de perder dinheiro testando produto errado. <br className="hidden md:block" />
                   Pegue 150 ofertas que já vendem, já foram validadas e estão prontas pra você copiar, subir e lucrar.
@@ -254,19 +257,19 @@ export default function SalesPage() {
                {/* Abstract visual representation of many files/products */}
                <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4 mt-8">
-                     <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50 animate-pulse-slow">
+                     <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
                         <div className="h-8 w-8 bg-blue-500/10 text-blue-400 rounded-lg flex items-center justify-center mb-4">
                            <Download className="h-4 w-4" />
                         </div>
-                        <div className="h-2 w-24 bg-muted rounded mb-2"></div>
-                        <div className="h-2 w-16 bg-muted rounded"></div>
+                        <h4 className="font-bold text-lg mb-1">E-books</h4>
+                        <p className="text-xs text-muted-foreground">50+ produtos prontos</p>
                      </div>
                      <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
                         <div className="h-8 w-8 bg-purple-500/10 text-purple-400 rounded-lg flex items-center justify-center mb-4">
                            <Package className="h-4 w-4" />
                         </div>
-                        <div className="h-2 w-24 bg-muted rounded mb-2"></div>
-                        <div className="h-2 w-16 bg-muted rounded"></div>
+                        <h4 className="font-bold text-lg mb-1">Cursos</h4>
+                        <p className="text-xs text-muted-foreground">40+ videoaulas</p>
                      </div>
                   </div>
                   <div className="space-y-4">
@@ -287,8 +290,8 @@ export default function SalesPage() {
                         <div className="h-8 w-8 bg-orange-500/10 text-orange-400 rounded-lg flex items-center justify-center mb-4">
                            <Star className="h-4 w-4" />
                         </div>
-                        <div className="h-2 w-24 bg-muted rounded mb-2"></div>
-                        <div className="h-2 w-16 bg-muted rounded"></div>
+                        <h4 className="font-bold text-lg mb-1">Templates</h4>
+                        <p className="text-xs text-muted-foreground">60+ modelos editáveis</p>
                      </div>
                   </div>
                </div>
