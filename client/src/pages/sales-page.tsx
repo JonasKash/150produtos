@@ -80,7 +80,7 @@ export default function SalesPage() {
                 <div className="flex items-center gap-2 text-sm text-muted-foreground px-2">
                   <div className="flex -space-x-2">
                     {[1, 2, 3, 4].map((i) => (
-                      <div key={i} className="w-8 h-8 rounded-full bg-gray-200 border-2 border-background flex items-center justify-center text-[10px] font-bold overflow-hidden">
+                      <div key={i} className="w-8 h-8 rounded-full bg-secondary border-2 border-background flex items-center justify-center text-[10px] font-bold overflow-hidden">
                          <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i * 123}`} alt="User" />
                       </div>
                     ))}
@@ -122,14 +122,14 @@ export default function SalesPage() {
               </motion.div>
               
               {/* Decorative elements */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-primary/5 rounded-full blur-3xl -z-10" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-primary/10 rounded-full blur-3xl -z-10" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Problem Agitation Section */}
-      <section className="py-20 bg-secondary/50 border-y border-border/50">
+      <section className="py-20 bg-card/30 border-y border-border/50">
         <div className="container px-4 mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">
@@ -158,9 +158,9 @@ export default function SalesPage() {
                 desc: "Como afiliado, você compete com milhares de outras pessoas vendendo a mesma coisa, com a mesma oferta e mesmos criativos."
               }
             ].map((item, i) => (
-              <Card key={i} className="border-none shadow-lg bg-background">
+              <Card key={i} className="border-none shadow-lg bg-card">
                 <CardContent className="pt-8 p-8">
-                  <div className="mb-6 p-3 bg-background rounded-xl w-fit shadow-sm border border-border/50">
+                  <div className="mb-6 p-3 bg-background/50 rounded-xl w-fit shadow-sm border border-border/50">
                     {item.icon}
                   </div>
                   <h3 className="text-xl font-bold mb-3">{item.title}</h3>
@@ -179,7 +179,7 @@ export default function SalesPage() {
         <div className="container px-4 mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-16">
             <div className="flex-1 space-y-8">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 text-xs font-bold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-wider">
                 A Solução Definitiva
               </div>
               <h2 className="text-3xl md:text-5xl font-bold font-display text-foreground">
@@ -216,40 +216,40 @@ export default function SalesPage() {
                <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4 mt-8">
                      <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50 animate-pulse-slow">
-                        <div className="h-8 w-8 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
+                        <div className="h-8 w-8 bg-blue-500/10 text-blue-400 rounded-lg flex items-center justify-center mb-4">
                            <Download className="h-4 w-4" />
                         </div>
-                        <div className="h-2 w-24 bg-gray-200 rounded mb-2"></div>
-                        <div className="h-2 w-16 bg-gray-200 rounded"></div>
+                        <div className="h-2 w-24 bg-muted rounded mb-2"></div>
+                        <div className="h-2 w-16 bg-muted rounded"></div>
                      </div>
                      <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
-                        <div className="h-8 w-8 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4">
+                        <div className="h-8 w-8 bg-purple-500/10 text-purple-400 rounded-lg flex items-center justify-center mb-4">
                            <Package className="h-4 w-4" />
                         </div>
-                        <div className="h-2 w-24 bg-gray-200 rounded mb-2"></div>
-                        <div className="h-2 w-16 bg-gray-200 rounded"></div>
+                        <div className="h-2 w-24 bg-muted rounded mb-2"></div>
+                        <div className="h-2 w-16 bg-muted rounded"></div>
                      </div>
                   </div>
                   <div className="space-y-4">
-                     <div className="bg-white p-6 rounded-2xl shadow-xl border border-primary/20 z-10 relative">
+                     <div className="bg-card p-6 rounded-2xl shadow-xl border border-primary/20 z-10 relative">
                         <div className="absolute -top-3 -right-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">
                            Mais Vendido
                         </div>
-                        <div className="h-8 w-8 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center mb-4">
+                        <div className="h-8 w-8 bg-emerald-500/10 text-emerald-400 rounded-lg flex items-center justify-center mb-4">
                            <DollarSign className="h-4 w-4" />
                         </div>
                         <h4 className="font-bold text-lg mb-1">PLR Premium</h4>
                         <p className="text-xs text-muted-foreground mb-4">Nicho de Saúde & Bem-estar</p>
-                        <div className="w-full h-1.5 bg-emerald-100 rounded-full overflow-hidden">
+                        <div className="w-full h-1.5 bg-emerald-500/20 rounded-full overflow-hidden">
                            <div className="w-[80%] h-full bg-emerald-500 rounded-full"></div>
                         </div>
                      </div>
                      <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
-                        <div className="h-8 w-8 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center mb-4">
+                        <div className="h-8 w-8 bg-orange-500/10 text-orange-400 rounded-lg flex items-center justify-center mb-4">
                            <Star className="h-4 w-4" />
                         </div>
-                        <div className="h-2 w-24 bg-gray-200 rounded mb-2"></div>
-                        <div className="h-2 w-16 bg-gray-200 rounded"></div>
+                        <div className="h-2 w-24 bg-muted rounded mb-2"></div>
+                        <div className="h-2 w-16 bg-muted rounded"></div>
                      </div>
                   </div>
                </div>
@@ -348,7 +348,7 @@ export default function SalesPage() {
                             <span className="text-7xl md:text-8xl font-black tracking-tighter font-display">27</span>
                             <span className="text-xl font-bold relative -bottom-6">,90</span>
                          </div>
-                         <p className="text-sm text-emerald-600 font-bold mt-4 bg-emerald-50 inline-block px-3 py-1 rounded-full border border-emerald-100">
+                         <p className="text-sm text-emerald-400 font-bold mt-4 bg-emerald-500/10 inline-block px-3 py-1 rounded-full border border-emerald-500/20">
                             Menos de R$ 0,18 por produto
                          </p>
                       </div>
@@ -393,7 +393,7 @@ export default function SalesPage() {
         <div className="container px-4 mx-auto">
           <div className="max-w-3xl mx-auto bg-secondary/50 rounded-2xl p-8 md:p-12 border border-border flex flex-col md:flex-row items-center gap-8">
             <div className="flex-shrink-0">
-               <div className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full flex items-center justify-center shadow-lg border-4 border-primary/10">
+               <div className="w-24 h-24 md:w-32 md:h-32 bg-card rounded-full flex items-center justify-center shadow-lg border-4 border-primary/10">
                   <ShieldCheck className="h-12 w-12 md:h-16 md:w-16 text-primary" />
                </div>
             </div>
