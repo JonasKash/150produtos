@@ -154,16 +154,24 @@ export default function SalesPage() {
               O RESUMO
            </div>
            <h2 className="text-2xl md:text-3xl font-bold font-display mb-6 max-w-4xl mx-auto">
-              Um pack com 150 produtos validados, prontos para anúncio, com criativos, copys e páginas — para você vender hoje e ficar com 100% da comissão.
+              Produtos vencedores — já com criativos, copys e páginas prontas — pra você anunciar hoje e ficar com 100% da comissão no bolso.
            </h2>
            <div className="max-w-2xl mx-auto space-y-4 text-muted-foreground text-lg">
               <p>
-                Você não precisa testar, pesquisar, quebrar a cabeça ou gastar dinheiro no escuro.
-                <br/>Nós já fizemos isso por você.
+                Você não precisa mais testar produto, perder dinheiro, procurar oferta ou tentar adivinhar o que funciona.<br/>
+                Nós já fizemos todo esse trabalho por você — validação, teste, seleção e preparação.
               </p>
               <p className="text-foreground font-bold text-xl">
-                Você só escolhe <ArrowRight className="inline w-4 h-4 mx-1 text-primary" /> sobe <ArrowRight className="inline w-4 h-4 mx-1 text-primary" /> vende.
+                Agora é simples:
               </p>
+              <p className="text-foreground font-semibold text-lg">
+                Escolhe o produto → Sobe a campanha → Recebe 100% da comissão.
+              </p>
+              <div className="space-y-2 mt-6">
+                <p className="text-foreground font-bold">Sem achismo.</p>
+                <p className="text-foreground font-bold">Sem desperdício.</p>
+                <p className="text-foreground font-bold">Sem travar.</p>
+              </div>
            </div>
         </div>
       </section>
