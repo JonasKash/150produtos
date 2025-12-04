@@ -53,7 +53,7 @@ export default function SalesPage() {
       {/* Hero Section */}
       <section className="relative pt-16 pb-20 md:pt-24 md:pb-32 overflow-hidden">
         <div className="container px-4 mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+          <div className="flex flex-col-reverse md:flex-row items-center gap-12 md:gap-20">
             <div className="flex-1 space-y-8 z-10">
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
