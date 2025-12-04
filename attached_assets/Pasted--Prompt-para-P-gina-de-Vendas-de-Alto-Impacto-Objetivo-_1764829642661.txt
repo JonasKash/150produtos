@@ -1,0 +1,141 @@
+# Prompt para Página de Vendas de Alto Impacto
+
+**Objetivo:** Criar uma página de vendas persuasiva para vender 150 produtos validados com direito a 100% de comissão para quem deseja se tornar produtor digital.
+
+---
+
+## Estrutura da Página de Vendas
+
+### 1. **Headline Principal (Acima da Dobra)**
+Crie uma manchete magnética que capture atenção imediatamente:
+- Foque na transformação: de consumidor para produtor
+- Destaque o benefício financeiro: 100% de comissão
+- Use números concretos: 150 produtos prontos
+- Gere urgência ou exclusividade
+
+**Exemplo de abordagem:**
+"Comece Hoje Mesmo Como Produtor Digital: 150 Produtos Validados + 100% de Comissão Para Você"
+
+### 2. **Subheadline**
+Amplifique a promessa principal explicando rapidamente o "como":
+- Sem criar produtos do zero
+- Produtos já testados e aprovados pelo mercado
+- Lucro integral para você
+
+### 3. **Seção de Dor/Problema**
+Conecte-se emocionalmente mostrando que você entende as frustrações:
+- "Cansado de promover produtos alheios e ficar com apenas 30-50% de comissão?"
+- "Quer ser produtor mas não sabe por onde começar?"
+- "Medo de investir tempo criando um produto que ninguém vai comprar?"
+
+### 4. **Solução (Sua Oferta)**
+Apresente os 150 produtos como a ponte entre problema e solução:
+- **O que é:** Pacote completo com 150 produtos digitais validados
+- **O que inclui:** Produtos em nichos lucrativos já testados
+- **Direito de revenda:** 100% de comissão fica com você
+- **Pronto para usar:** Não precisa criar nada do zero
+
+### 5. **Prova Social e Validação**
+- Depoimentos de quem já está lucrando
+- Screenshots de vendas realizadas
+- Números de faturamento
+- Quantidade de pessoas usando os produtos
+
+### 6. **Benefícios Detalhados (Não Características)**
+Liste como a vida do cliente muda:
+- ✓ Torne-se produtor sem investir meses criando conteúdo
+- ✓ Fique com 100% do lucro de cada venda (vs 30-50% como afiliado)
+- ✓ Produtos já validados = menos risco
+- ✓ 150 opções = diversifique sua renda
+- ✓ Comece hoje mesmo, sem curva de aprendizado
+
+### 7. **Como Funciona (Processo em 3-4 Passos)**
+Simplifique o caminho para o sucesso:
+1. Adquira o acesso aos 150 produtos
+2. Escolha os produtos que mais combinam com você
+3. Configure sua plataforma de vendas
+4. Comece a vender e fique com 100% da comissão
+
+### 8. **Bônus Irresistíveis**
+Adicione valor percebido:
+- Templates de páginas de vendas
+- Swipe copies de e-mails
+- Estratégias de tráfego
+- Grupo de suporte exclusivo
+- Atualizações de produtos
+
+### 9. **Breakdown de Investimento**
+Mostre o valor real vs. o preço:
+- "Criar 1 produto do zero: R$ 2.000+ em tempo e recursos"
+- "150 produtos prontos: R$ [PREÇO] (menos de R$ X por produto)"
+- Destaque o ROI: "Basta vender [X] unidades para recuperar seu investimento"
+
+### 10. **Gatilhos de Urgência e Escassez**
+- Vagas limitadas (para manter exclusividade)
+- Bônus por tempo limitado
+- Contador regressivo
+- Preço promocional que expira
+
+### 11. **Garantia Anti-Risco**
+- Garantia de 7, 15 ou 30 dias
+- "Se não ficar satisfeito, devolvemos 100% do seu dinheiro"
+- Inverta o risco: o risco é todo seu, não do cliente
+
+### 12. **FAQ (Objeções Antecipadas)**
+Responda as principais dúvidas:
+- "Preciso ter experiência como produtor?"
+- "Os produtos são exclusivos ou outras pessoas também terão?"
+- "Como recebo o dinheiro das vendas?"
+- "Preciso pagar por plataforma de hospedagem?"
+- "Os produtos estão em português?"
+
+### 13. **CTA (Call-to-Action) Múltiplos**
+- Botões em verde, laranja ou vermelho
+- Texto acionável: "QUERO SER PRODUTOR AGORA"
+- Repita o CTA a cada 2-3 seções da página
+
+### 14. **PS (Pós-escrito)**
+Reforce a urgência e escassez:
+- "P.S.: Lembre-se, esta oferta especial expira em [TEMPO]"
+- "P.P.S.: Quanto mais você esperar, mais vendas está deixando de fazer"
+
+---
+
+## Elementos Visuais Importantes
+
+- **Hero image/vídeo:** Mostrando os produtos ou você explicando a oportunidade
+- **Ícones e badges:** "100% de comissão", "150 produtos", "Garantia"
+- **Screenshots:** Painéis de vendas, área de membros, produtos
+- **Vídeos de depoimento:** Mais convincente que texto
+- **Cores da marca:** Use psicologia das cores (verde = dinheiro, laranja/vermelho = urgência)
+
+---
+
+## Tom e Linguagem
+
+- **Conversacional:** Fale como um amigo que descobriu uma oportunidade
+- **Confiante mas não arrogante:** Mostre resultados sem exagerar
+- **Focado no cliente:** Use "você" mais que "eu/nós"
+- **Storytelling:** Conte histórias de transformação
+- **Urgente mas não desesperado:** Crie FOMO naturalmente
+
+---
+
+## Checklist Final
+
+Antes de publicar, certifique-se:
+- [ ] A headline faz o visitante parar e ler?
+- [ ] Ficou claro o que ele recebe (150 produtos)?
+- [ ] O benefício principal (100% comissão) está óbvio?
+- [ ] Há provas sociais suficientes?
+- [ ] As objeções foram respondidas?
+- [ ] Há pelo menos 3-5 CTAs visíveis?
+- [ ] A garantia está destacada?
+- [ ] Há urgência/escassez real?
+- [ ] A página carrega rápido no mobile?
+
+---
+
+**Dica Extra:** Teste sempre! Crie 2-3 versões da headline e teste qual converte melhor. Use ferramentas de mapa de calor para ver onde os visitantes clicam e otimize continuamente.
+
+Quer que eu crie a página de vendas completa em HTML para você implementar? Posso desenvolver com design moderno e responsivo!
