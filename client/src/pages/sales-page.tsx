@@ -70,7 +70,7 @@ export default function SalesPage() {
                   Com 100% da Comissão no Seu Bolso
                 </p>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl my-6">
-                  150 produtos prontos, testados e validados pelos que <span className="text-foreground font-semibold">realmente vendem hoje</span>. <br className="hidden md:block" />
+                  Produtos prontos, escaláveis e validados pelos que <span className="text-foreground font-semibold">realmente vendem hoje</span>. <br className="hidden md:block" />
                   Com criativos, copys e páginas prontas. <span className="text-foreground font-semibold">Você sobe em menos de 10 minutos</span> — sem pensar, sem testar, sem adivinhar.
                 </p>
 
@@ -80,7 +80,7 @@ export default function SalesPage() {
                     "Criativos validados",
                     "Copys testadas",
                     "Landing pages prontas",
-                    "Análise de vendas",
+                    "Acompanhamento",
                     "Checklist de escala"
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-2">
@@ -437,7 +437,7 @@ export default function SalesPage() {
                         className="w-full h-16 text-xl font-bold bg-primary hover:bg-primary/90 shadow-xl shadow-primary/20 animate-pulse-slow"
                         onClick={openPayment}
                       >
-                        🔥 PEGAR PRODUTO PROVADO AGORA
+                        🔥 LUCRAR AGORA
                       </Button>
 
                       <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
@@ -491,7 +491,7 @@ export default function SalesPage() {
               },
               {
                 q: "Os produtos são em português?",
-                a: "Sim, todos os 150 produtos são em português e prontos para o mercado brasileiro."
+                a: "Sim! A maioria está pronta para o mercado brasileiro. Mas temos também no arsenal produtos que vendem na Alemanha, LATAM e alguns países na Europa para você ganhar em moeda forte."
               },
               {
                 q: "Tenho suporte se tiver dúvidas?",
