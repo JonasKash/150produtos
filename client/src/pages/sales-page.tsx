@@ -269,7 +269,7 @@ export default function SalesPage() {
         <div className="container px-4 mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">
-              Resultados Reais de Quem Já Está <span className="text-primary">Lucrando</span>
+              Resultados Reais de Quem Já Está <span className="text-primary">Vendendo</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Veja os resultados de pessoas comuns que decidiram agir e transformaram produtos prontos em lucro real
@@ -353,7 +353,7 @@ export default function SalesPage() {
         <div className="container px-4 mx-auto text-center">
           <div className="max-w-3xl mx-auto">
             <p className="text-2xl md:text-3xl font-bold text-foreground leading-tight mb-4">
-              "Enquanto você pensa no que anunciar, <span className="text-primary">alguém já está lucrando</span> com o produto que poderia ser seu."
+              "Enquanto você pensa no que anunciar, <span className="text-primary">alguém já está vendendo</span> com o produto que poderia ser seu."
             </p>
             <p className="text-lg text-muted-foreground">
               Cada minuto perdido é dinheiro na conta de outra pessoa.
@@ -415,7 +415,7 @@ export default function SalesPage() {
 
                       <div className="text-center space-y-3">
                         <a 
-                          href="https://wa.me/5511999999999?text=Olá,%20tenho%20dúvidas%20sobre%20o%20Pack%20150%20Produtos" 
+                          href="https://wa.me/5534997101300?text=Olá,%20tenho%20dúvidas%20sobre%20o%20Pack%20150%20Produtos" 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 font-semibold transition-colors"
