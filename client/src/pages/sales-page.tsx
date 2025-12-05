@@ -64,7 +64,7 @@ export default function SalesPage() {
                   🔥 O Atalho que Ninguém Quer te Contar
                 </span>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-[1.1] tracking-tight text-foreground">
-                  150 Produtos Validados, <span className="text-primary">Prontos pra Subir e Vender</span>
+                  150 Produtos Validados <span className="text-primary">Prontos pra Subir e Vender</span>
                 </h1>
                 <p className="text-xl md:text-2xl font-semibold text-primary/80 mt-4">
                   Com 100% da Comissão no Seu Bolso
@@ -294,9 +294,13 @@ export default function SalesPage() {
                 className="group relative overflow-hidden rounded-xl border-2 border-border hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-primary/20 aspect-[3/4]"
               >
                 <img 
-                  src={`/Prova Social/${image}`} 
+                  src={`/Prova%20Social/${image}`} 
                   alt={`Prova social ${i + 1}`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  onError={(e) => {
+                    console.error(`Erro ao carregar: /Prova%20Social/${image}`);
+                    e.currentTarget.style.display = 'none';
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
