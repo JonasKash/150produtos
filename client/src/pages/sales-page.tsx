@@ -70,8 +70,7 @@ export default function SalesPage() {
                   Com 100% da Comissão no Seu Bolso
                 </p>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl my-6">
-                  Produtos prontos, escaláveis e validados pelos que <span className="text-foreground font-semibold">realmente vendem hoje</span>. <br className="hidden md:block" />
-                  Com criativos, copys e páginas prontas. <span className="text-foreground font-semibold">Você sobe em menos de 10 minutos</span> — sem pensar, sem testar, sem adivinhar.
+                  Criativos, copys e páginas prontas. Você sobe em menos de 10 minutos — sem pensar, sem testar, sem adivinhar.
                 </p>
 
                 <div className="grid grid-cols-2 gap-y-2 gap-x-4 mb-8 max-w-lg">
@@ -104,7 +103,7 @@ export default function SalesPage() {
                   className="h-14 px-8 text-lg font-semibold bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1"
                   onClick={openPayment}
                 >
-                  🚀 Pegar um Produto Vencedor Agora
+                  🚀 ADQUIRIR PRODUTOS
                 </Button>
               </motion.div>
               
@@ -154,7 +153,7 @@ export default function SalesPage() {
               O RESUMO
            </div>
            <h2 className="text-2xl md:text-3xl font-bold font-display mb-6 max-w-4xl mx-auto">
-              Produtos vencedores — já com criativos, copys e páginas prontas — pra você anunciar hoje e ficar com 100% da comissão no bolso.
+              Você escolhe o produto vencedor, cadastra na plataforma como produto próprio, roda anúncios e recebe 100% da comissão.
            </h2>
            <div className="max-w-2xl mx-auto space-y-4 text-muted-foreground text-lg">
               <p>
@@ -225,8 +224,8 @@ export default function SalesPage() {
       {/* Solution Section */}
       <section className="py-24 overflow-hidden">
         <div className="container px-4 mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-16">
-            <div className="flex-1 space-y-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="space-y-8">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-wider">
                 A Solução Definitiva
               </div>
@@ -260,55 +259,61 @@ export default function SalesPage() {
                    </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-              <Button size="lg" variant="outline" className="h-12 border-primary text-primary hover:bg-primary/5" onClick={openPayment}>
-                Ver Lista de Produtos
-              </Button>
-            </div>
-            
-            <div className="flex-1 relative">
-               {/* Abstract visual representation of many files/products */}
-               <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-4 mt-8">
-                     <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
-                        <div className="h-8 w-8 bg-blue-500/10 text-blue-400 rounded-lg flex items-center justify-center mb-4">
-                           <Download className="h-4 w-4" />
-                        </div>
-                        <h4 className="font-bold text-lg mb-1">E-books</h4>
-                        <p className="text-xs text-muted-foreground">50+ produtos prontos</p>
-                     </div>
-                     <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
-                        <div className="h-8 w-8 bg-purple-500/10 text-purple-400 rounded-lg flex items-center justify-center mb-4">
-                           <Package className="h-4 w-4" />
-                        </div>
-                        <h4 className="font-bold text-lg mb-1">Cursos</h4>
-                        <p className="text-xs text-muted-foreground">40+ videoaulas</p>
-                     </div>
-                  </div>
-                  <div className="space-y-4">
-                     <div className="bg-card p-6 rounded-2xl shadow-xl border border-primary/20 z-10 relative">
-                        <div className="absolute -top-3 -right-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">
-                           Mais Vendido
-                        </div>
-                        <div className="h-8 w-8 bg-cyan-500/10 text-cyan-400 rounded-lg flex items-center justify-center mb-4">
-                           <DollarSign className="h-4 w-4" />
-                        </div>
-                        <h4 className="font-bold text-lg mb-1">PLR Premium</h4>
-                        <p className="text-xs text-muted-foreground mb-4">Nicho de Saúde & Bem-estar</p>
-                        <div className="w-full h-1.5 bg-cyan-500/20 rounded-full overflow-hidden">
-                           <div className="w-[80%] h-full bg-cyan-500 rounded-full"></div>
-                        </div>
-                     </div>
-                     <div className="bg-secondary p-6 rounded-2xl shadow-sm border border-border/50">
-                        <div className="h-8 w-8 bg-orange-500/10 text-orange-400 rounded-lg flex items-center justify-center mb-4">
-                           <Star className="h-4 w-4" />
-                        </div>
-                        <h4 className="font-bold text-lg mb-1">Templates</h4>
-                        <p className="text-xs text-muted-foreground">60+ modelos editáveis</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
+      {/* Social Proof Section */}
+      <section className="py-20 bg-background border-y border-border/50">
+        <div className="container px-4 mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-display mb-4">
+              Resultados Reais de Quem Já Está <span className="text-primary">Lucrando</span>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Veja os resultados de pessoas comuns que decidiram agir e transformaram produtos prontos em lucro real
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 max-w-7xl mx-auto">
+            {[
+              'IMG-20251205-WA0003.jpg',
+              'IMG-20251205-WA0004.jpg',
+              'IMG-20251205-WA0005.jpg',
+              'IMG-20251205-WA0006.jpg',
+              'IMG-20251205-WA0007.jpg',
+              'IMG-20251205-WA0008.jpg',
+              'IMG-20251205-WA0009.jpg',
+              'IMG-20251205-WA0010.jpg',
+              'IMG-20251205-WA0011.jpg',
+              'IMG-20251205-WA0012.jpg',
+            ].map((image, i) => (
+              <div 
+                key={i} 
+                className="group relative overflow-hidden rounded-xl border-2 border-border hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-primary/20 aspect-[3/4]"
+              >
+                <img 
+                  src={`/Prova Social/${image}`} 
+                  alt={`Prova social ${i + 1}`}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-lg text-muted-foreground mb-6">
+              Mais de <span className="text-primary font-bold">50+ pessoas</span> já estão usando nossos produtos
+            </p>
+            <Button 
+              size="lg" 
+              className="h-14 px-8 text-lg font-bold"
+              onClick={openPayment}
+            >
+              Quero Meus Resultados Também 🚀
+            </Button>
           </div>
         </div>
       </section>
