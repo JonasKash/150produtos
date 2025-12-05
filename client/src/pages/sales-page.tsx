@@ -488,9 +488,11 @@ export default function SalesPage() {
                       <Button 
                         size="lg" 
                         className="w-full h-14 md:h-16 text-lg md:text-xl font-bold bg-gradient-to-r from-primary via-yellow-400 to-primary hover:opacity-90 shadow-xl shadow-primary/30 animate-pulse-slow"
-                        onClick={openPayment}
+                        asChild
                       >
-                        🔥 LUCRAR AGORA COM PREMIUM
+                        <a href="https://pay.cakto.com.br/icxwsuu_677466" target="_blank" rel="noopener noreferrer">
+                          🔥 LUCRAR AGORA COM PREMIUM
+                        </a>
                       </Button>
 
                       <div className="text-center space-y-2 md:space-y-3">
