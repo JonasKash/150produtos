@@ -101,9 +101,11 @@ export default function SalesPage() {
                 <Button 
                   size="lg" 
                   className="h-14 px-8 text-lg font-semibold bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-1"
-                  onClick={openPayment}
+                  asChild
                 >
-                  🚀 ADQUIRIR PRODUTOS
+                  <a href="#pricing">
+                    🚀 ADQUIRIR PRODUTOS
+                  </a>
                 </Button>
               </motion.div>
               
