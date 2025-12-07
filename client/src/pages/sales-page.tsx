@@ -490,7 +490,7 @@ export default function SalesPage() {
                         className="w-full h-14 md:h-16 text-lg md:text-xl font-bold bg-gradient-to-r from-primary via-yellow-400 to-primary hover:opacity-90 shadow-xl shadow-primary/30 animate-pulse-slow"
                         asChild
                       >
-                        <a href="https://pay.cakto.com.br/icxwsuu_677466" target="_blank" rel="noopener noreferrer">
+                        <a href="https://pay.kiwify.com.br/DAfGrxZ" target="_blank" rel="noopener noreferrer">
                           🔥 LUCRAR AGORA COM PREMIUM
                         </a>
                       </Button>
